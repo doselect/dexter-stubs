@@ -23,4 +23,5 @@ dependencies {
     androidTestCompile 'com.android.support.test:runner:' + rootProject.runnerVersion;
     androidTestCompile 'com.android.support.test:rules:' + rootProject.rulesVersion;
     androidTestCompile 'com.android.support.test.espresso:espresso-core:' + rootProject.espressoVersion;
+    androidTestCompile 'tools.fastlane:screengrab:0.5.5'
 }
