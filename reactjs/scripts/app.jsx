@@ -1,4 +1,4 @@
-// Good luck!
+// Please do not delete or rename app.jsx , if you do please update in config.js
 import React from 'react';
 import ReactDOM from 'react-dom';
 
