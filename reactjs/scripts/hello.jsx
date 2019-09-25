@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Hello extends React.Component {
+class Hello extends Component {
   render() {
     return (
       <div className="hello">
-      	<p>Your <strong>ReactJS</strong> project is ready!</p>
-    	<p>ReactJS Version 16.2.0</p>
+        <p>Your <strong>ReactJS</strong> project is ready!</p>
+        <p>ReactJS Version 16.9.0</p>
       </div>
     );
   }
 }
-
-export { Hello }
+export default Hello;
