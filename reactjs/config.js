@@ -3,7 +3,7 @@
 
 console.clear();
 
-var INDEX = './scripts/app.jsx';
+var INDEX = './scripts/index.jsx';
 
 System.config({
     baseURL: 'https://npm.jspm.io/',
@@ -14,6 +14,9 @@ System.config({
         'unpkg:*': 'https://unpkg.com/*',
         'jsdelivr:*': 'https://cdn.jsdelivr.net/g/*',
         'jsdelivr-npm:*': 'https://cdn.jsdelivr.net/npm/*'
+    },
+    meta: {
+        '*.css': { loader: 'css' }
     },
     map: {
         // The Application path
@@ -28,6 +31,7 @@ System.config({
 	    /* React 16  */
         'react': 'unpkg:react@16.9.0/umd/react.development.js',
         'react-dom': 'unpkg:react-dom@16.9.0/umd/react-dom.development.js',
+        'css': 'jsdelivr-npm:systemjs-plugin-css@0.1.37/css.js',
     },
     packages: {
         'https://npm.jspm.io/' : { defaultExtension: false },
